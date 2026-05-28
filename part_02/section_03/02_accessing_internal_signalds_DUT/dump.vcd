@@ -1,0 +1,25 @@
+$date
+	Fri May 22 15:25:22 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module adder $end
+$var wire 1 ! rst $end
+$var reg 1 " clk $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0"
+1!
+$end
+#10000
+1"
+#15001

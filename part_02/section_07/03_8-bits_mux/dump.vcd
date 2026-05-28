@@ -1,0 +1,57 @@
+$date
+	Thu May 28 19:16:40 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module mux $end
+$var wire 8 ! a [7:0] $end
+$var wire 8 " b [7:0] $end
+$var wire 8 # c [7:0] $end
+$var wire 8 $ d [7:0] $end
+$var wire 2 % sel [1:0] $end
+$var reg 8 & dout [7:0] $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1101010 &
+b0 %
+b11001010 $
+b11111011 #
+b11001011 "
+b1101010 !
+$end
+#20000
+b1100100 &
+b11 %
+b1100100 $
+b11110101 #
+b10110011 "
+b10001001 !
+#40000
+b11 &
+b10 %
+b10110010 $
+b11 #
+b11101010 "
+b10011010 !
+#60000
+b110001 &
+b10110111 $
+b110001 #
+b11011100 "
+b11001101 !
+#80000
+b1110 &
+b11011111 $
+b1110 #
+b1110100 "
+b10000011 !
+#100001
