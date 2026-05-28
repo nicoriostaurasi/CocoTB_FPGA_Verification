@@ -17,3 +17,13 @@
 !requirements.txt
 !*.sh
 !*.ps1
+!docs/
+!docs/**/
+!docs/**/*.md
+!docs/**/.obsidian/
+!docs/**/.obsidian/app.json
+!docs/**/.obsidian/appearance.json
+!docs/**/.obsidian/core-plugins.json
+!docs/**/.obsidian/graph.json
+docs/**/.obsidian/workspace.json
+docs/**/.obsidian/workspace-mobile.json

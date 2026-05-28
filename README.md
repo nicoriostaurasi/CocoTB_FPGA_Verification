@@ -15,6 +15,10 @@ The Docker image provides a reproducible Linux simulation environment for Window
 
 The cocotb version is pinned to 1.x because some exercises use legacy APIs such as `cocotb.coroutine`, `cocotb.fork`, and `cocotb.binary.BinaryValue`.
 
+## Course Notes
+
+The `docs/` folder contains Spanish Obsidian notes for this part of the course. Start with `docs/00_indice.md` to navigate the concepts and exercises.
+
 ## Project Layout
 
 Each exercise directory follows the same structure:
