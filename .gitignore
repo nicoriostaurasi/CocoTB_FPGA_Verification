@@ -8,3 +8,11 @@
 !.gitignore
 !*/
 !*.PNG
+!Dockerfile
+!.dockerignore
+!.gitattributes
+!docker-compose.yml
+!README.md
+!requirements.txt
+!*.sh
+!*.ps1

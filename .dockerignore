@@ -1,0 +1,10 @@
+.git
+**/__pycache__
+**/.pytest_cache
+**/sim_build
+**/results.xml
+**/*.vcd
+**/*.vvp
+**/*.o
+**/*.so
+**/*.pyc

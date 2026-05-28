@@ -1,0 +1,9 @@
+services:
+  cocotb:
+    build:
+      context: .
+    image: cocotb-fpga-verification:local
+    working_dir: /work
+    volumes:
+      - .:/work
+    command: bash
