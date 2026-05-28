@@ -1,24 +1,21 @@
-    module top(
+module top(
     input      rst,clk,
     input      din,
     output reg dout
     );
-      
-    always@(posedge clk)
+
+    always @(posedge clk)
     begin
-     if(rst == 1'b1)
+        if (rst == 1'b1)
         dout <= 1'b0;
-     else 
-        dout <= din;
-    end  
-     
-     
-    initial begin
-    $dumpfile("dump.vcd");
-    $dumpvars(1,top);
+        else
+            dout <= din;
     end
-     
-     
-    endmodule
 
+    // Dump waveforms for post-simulation debugging.
+    initial begin
+        $dumpfile("dump.vcd");
+        $dumpvars(1,top);
+    end
 
+endmodule

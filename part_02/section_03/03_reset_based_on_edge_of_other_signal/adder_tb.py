@@ -1,3 +1,8 @@
+"""cocotb testbench for this exercise.
+
+Run from this directory with `make clean && make icarus=sim`.
+"""
+
 import cocotb
 import logging
 from cocotb.triggers import Timer

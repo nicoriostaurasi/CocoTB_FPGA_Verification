@@ -1,3 +1,8 @@
+"""cocotb testbench for this exercise.
+
+Run from this directory with `make clean && make icarus=sim`.
+"""
+
 # Simple tests for an counter module
  
 import cocotb

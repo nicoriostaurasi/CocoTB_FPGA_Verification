@@ -1,8 +1,9 @@
-    TOPLEVEL_LANG ?= verilog
-    SIM ?= icarus
-    VERILOG_SOURCES = $(shell pwd)/adder.sv
-    TOPLEVEL := mux # Verilog or SystemVerilog TOP file module name
-    MODULE   := adder_tb # Python file name
-     
-     
-    include $(shell cocotb-config --makefiles)/Makefile.sim
+# cocotb simulation settings for this exercise.
+TOPLEVEL_LANG ?= verilog
+SIM ?= icarus
+
+VERILOG_SOURCES = $(shell pwd)/adder.sv
+TOPLEVEL := mux  # Verilog/SystemVerilog top module
+MODULE   := adder_tb  # Python testbench module
+
+include $(shell cocotb-config --makefiles)/Makefile.sim

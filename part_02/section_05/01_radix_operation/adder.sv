@@ -1,4 +1,4 @@
-    module pri_enc(
-      );
-     
-    endmodule
+module pri_enc(
+    );
+
+endmodule
